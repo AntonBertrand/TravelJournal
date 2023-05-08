@@ -18,7 +18,9 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-      {journeys}
+      <div className='container'>
+        {journeys}
+      </div>
       <Footer/>
     </div>
   );

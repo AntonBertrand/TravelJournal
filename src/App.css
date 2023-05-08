@@ -38,6 +38,8 @@ body {
     display: flex;
     flex-direction: row;
     padding: 4rem;
+    margin-left: 0rem;
+    width: 50%;
 }
 
 .journey-info {
@@ -46,8 +48,8 @@ body {
 
 
 .journey-img {
-    height: 250px;
-    width: 300px;
+    max-height: 250px;
+    max-width: 300px;
     margin-right: 1.5rem;
     border-radius: 0.5rem;
 }
@@ -84,4 +86,22 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Journey {
+        display: flex;
+        flex-direction: row;
+        padding: 4rem;
+        margin-left: 0rem;
+        width: 100%;
+    }
 }
